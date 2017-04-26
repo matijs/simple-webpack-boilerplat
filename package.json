@@ -1,0 +1,59 @@
+{
+  "name": "simple-webpack-boilerplate",
+  "version": "0.0.0",
+  "description": "Simple webpack boilerplate",
+  "license": "MIT",
+  "keywords": [
+    "webpack",
+    "babel",
+    "boilerplate",
+    "eslint"
+  ],
+  "author": {
+    "name": "Matijs Brinkhuis",
+    "email": "matijs@gmail.com"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --env development",
+    "build": "webpack --env.target production",
+    "lint:js": "eslint app/**/*.js --cache"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matijs/simple-webpack-boilerplate.git"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.4.0",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.1.3",
+    "eslint-plugin-import": "^2.2.0",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.4"
+  },
+  "bugs": {
+    "url": "https://github.com/matijs/simple-webpack-boilerplate/issues"
+  },
+  "homepage": "https://github.com/matijs/simple-webpack-boilerplate#readme",
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "browser": true,
+      "es6": true
+    },
+    "extends": "airbnb-base",
+    "rules": {
+      "padded-blocks": [
+        1,
+        "always"
+      ],
+      "comma-dangle": [
+        2,
+        "never"
+      ]
+    }
+  }
+}
