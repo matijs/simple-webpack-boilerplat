@@ -34,7 +34,7 @@ const commonConfig = {
 const developmentConfig = () => {
 
   const config = {
-    devtool: 'source-map',
+    devtool: 'cheap-module-eval-source-map',
     devServer: {
       port: process.env.PORT,
       host: process.env.HOST,
