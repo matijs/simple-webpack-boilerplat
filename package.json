@@ -1,6 +1,6 @@
 {
   "name": "simple-webpack-boilerplate",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Simple webpack boilerplate",
   "license": "MIT",
   "keywords": [
@@ -22,8 +22,7 @@
     "type": "git",
     "url": "git+https://github.com/matijs/simple-webpack-boilerplate.git"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
